@@ -5,7 +5,7 @@ volumes:
 
 services:
   db:
-    image: postgres:13.10
+    image: postgres:14.0
     env_file: .env
     volumes:
       - pg_data:/var/lib/postgresql/data
@@ -27,5 +27,5 @@ services:
     ports:
       - 9000:80
     volumes:
-      - static:/static
+      - static:/staticfiles/
       - media:/media
