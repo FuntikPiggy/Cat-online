@@ -14,7 +14,7 @@ services:
     env_file: .env
     volumes:
       - static:/backend_static
-      - media:/media
+      - media:/app/media
   frontend:
     image: funtikpiggy/kittygram_frontend
     env_file: .env
