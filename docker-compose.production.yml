@@ -10,21 +10,20 @@ services:
     volumes:
       - pg_data:/var/lib/postgresql/data
   backend:
-    build: ./backend/
+    image: funtikpiggy/kittygram_backend
     env_file: .env
-    depends_on:
-      - db
     volumes:
       - static:/backend_static
       - media:/app/media
   frontend:
-    build: ./frontend/
+    image: funtikpiggy/kittygram_frontend
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static:/frontend_static
   gateway:
-    build: ./nginx/
+    image: funtikpiggy/kittygram_gateway
+    env_file: .env
     ports:
       - 9000:80
     volumes:
