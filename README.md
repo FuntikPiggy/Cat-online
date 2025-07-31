@@ -1,6 +1,6 @@
 [![Main Kittygram workflow](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml)
 
-# api_yamdb
+# KittyGram
 
 [О проекте.](#anchor-about)<br/>
 [Как запустить проект.](#How-to-run)<br/>

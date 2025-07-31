@@ -1,8 +1,6 @@
 FROM python:3.12
                                        
-WORKDIR /app                                               
-
-RUN pip install gunicorn==23.0.0 
+WORKDIR /app
                       
 COPY requirements.txt .
                              

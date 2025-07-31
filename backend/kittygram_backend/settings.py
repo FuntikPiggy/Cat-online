@@ -8,7 +8,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')
 
 DEBUG = os.getenv('DEBUG_MODE', False)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '84.252.138.107', 'funtikgram.sytes.net']
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', 'localhost 127.0.0.1').split('')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,15 +54,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
 
+DB_TYPE_POSTGRES = {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': os.getenv('POSTGRES_DB', 'django'),
+    'USER': os.getenv('POSTGRES_USER', 'django'),
+    'PASSWORD': os.getenv('POSTGRES_PASSWORD', ''),
+    'HOST': os.getenv('DB_HOST', ''),
+    'PORT': os.getenv('DB_PORT', 5432)
+}
+DB_TYPE_SQLITE = {
+    'ENGINE': 'django.db.backends.sqlite3',
+    'NAME': BASE_DIR / 'db.sqlite3',
+}
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('POSTGRES_DB', 'django'),
-        'USER': os.getenv('POSTGRES_USER', 'django'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', ''),
-        'HOST': os.getenv('DB_HOST', ''),
-        'PORT': os.getenv('DB_PORT', 5432)
-    }
+    'default': [DB_TYPE_SQLITE, DB_TYPE_POSTGRES][os.getenv('DB_PROD_TYPE', False)]
 }
 
 
