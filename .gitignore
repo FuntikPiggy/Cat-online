@@ -150,3 +150,5 @@ media/
 
 # Others
 node_modules
+
+docker-compose.yml
