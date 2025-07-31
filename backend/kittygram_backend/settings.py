@@ -68,7 +68,7 @@ DB_TYPE_SQLITE = {
 }
 
 DATABASES = {
-    'default': [DB_TYPE_SQLITE, DB_TYPE_POSTGRES][os.getenv('DB_PROD_TYPE', False)]
+    'default': DB_TYPE_POSTGRES if os.getenv('DB_PROD_TYPE', False) else DB_TYPE_SQLITE
 }
 
 
