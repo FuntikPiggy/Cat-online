@@ -1,4 +1,7 @@
 # flake8: noqa
+
+# ПРОВЕРКА!
+
 import os
 from pathlib import Path
 
