@@ -1,10 +1,10 @@
 [![Main Kittygram workflow](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml)
+<a name="Start-point"></a>
+# KittyGram<img align="right" width="48" height="48" alt="KittyGram__icon" src="https://github.com/user-attachments/assets/abe9f7da-efa9-41ac-94cf-2bd6e73316f1" />
 
-# KittyGram
 
-[О проекте.](#anchor-about)<br/>
-[Как запустить проект.](#How-to-run)<br/>
-<br/>
+* [О проекте.](#anchor-about)<br/>
+* [Как запустить проект.](#How-to-run)<br/>
 
 <a name="anchor-about"></a>
 ## О проекте
@@ -14,10 +14,14 @@ Kittygram — социальная сеть для обмена фотограф
 Это полностью рабочий проект, который состоит из бэкенд-приложения на
 Django и фронтенд-приложения на React.
 
+<img width="400" height="300" alt="KittyGram__02" src="https://github.com/user-attachments/assets/06c0d9cd-9df0-4fb1-a041-79d8f374b1fc" />
+<img width="400" height="300" alt="KittyGram__01" src="https://github.com/user-attachments/assets/f73b4bea-d06a-4715-8efa-a4146fd6c8a4" />
+
+
+
 Авторы проекта:
 
-Гурин Валерий - (GitHub - [FuntikPiggy](https://github.com/FuntikPiggy))
-А так же неизвестные авторы, но тоже молодцы...
+Гурин Валерий - ([GitHub](https://github.com/FuntikPiggy), [Telegram](https://t.me/CallSign_Yakuza))
 
 
 ### Технические подробности
@@ -83,3 +87,5 @@ python3 manage.py runserver
 ```
 
 <a name="Examples"></a>
+
+<p align="right"><a href="#Start-point">Вернуться к началу</a></p>
