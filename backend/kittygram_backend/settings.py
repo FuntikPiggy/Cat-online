@@ -33,6 +33,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS=os.getenv('CSRF_TRUSTED', 'http://localhost').split()
+
 ROOT_URLCONF = 'kittygram_backend.urls'
 
 TEMPLATES = [

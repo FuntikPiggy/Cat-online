@@ -152,3 +152,6 @@ media/
 node_modules
 
 docker-compose.yml
+
+# Временные файлы
+*.tmp
