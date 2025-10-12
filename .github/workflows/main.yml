@@ -187,4 +187,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Деплой проекта KittyGram успешно выполнен! (Сообщение от ${{ github.actor }} - ${{ github.event.commits[0].message }})
+        message: Деплой проекта Кот-в-сети успешно выполнен! (Сообщение от ${{ github.actor }} - ${{ github.event.commits[0].message }})

@@ -75,7 +75,7 @@ export const SignIn = ({ extraClass = "" }) => {
       <p
         className={`text text_type_medium-20 text_color_input mb-20 ${styles.subtitle}`}
       >
-        Войдите для доступа к Kittygram!
+        Войдите для доступа к сервису!
       </p>
       <FormContainer>
         <form className={styles.form}>

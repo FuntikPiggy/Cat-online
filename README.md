@@ -1,6 +1,6 @@
 <a name="Start-point"></a>
 [![Main Kittygram workflow](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml)
-# Кот-в-сети<img align="right" width="48" height="48" alt="KittyGram__icon" src="https://github.com/user-attachments/assets/abe9f7da-efa9-41ac-94cf-2bd6e73316f1" />
+# Кот-в-сети<img align="right" width="48" height="48" alt="Cat_online__icon" src="https://github.com/user-attachments/assets/abe9f7da-efa9-41ac-94cf-2bd6e73316f1" />
 
 
 * [О проекте.](#anchor-about)<br/>
@@ -10,12 +10,12 @@
 ## О проекте
 
 ### Описание проекта
-Kittygram — социальная сеть для обмена фотографиями любимых питомцев.
+"Кот в сети" — это сервис, который сделает из ваших питомцев настоящих звёзд всемирной сети!
 Это полностью рабочий проект, который состоит из бэкенд-приложения на
 Django и фронтенд-приложения на React.
 
-<img width="400" height="300" alt="KittyGram__02" src="https://github.com/user-attachments/assets/06c0d9cd-9df0-4fb1-a041-79d8f374b1fc" />
-<img width="400" height="300" alt="KittyGram__01" src="https://github.com/user-attachments/assets/f73b4bea-d06a-4715-8efa-a4146fd6c8a4" />
+<img width="400" height="300" alt="Cat_online__02" src="https://github.com/user-attachments/assets/06c0d9cd-9df0-4fb1-a041-79d8f374b1fc" />
+<img width="400" height="300" alt="Cat_online__01" src="https://github.com/user-attachments/assets/f73b4bea-d06a-4715-8efa-a4146fd6c8a4" />
 
 
 

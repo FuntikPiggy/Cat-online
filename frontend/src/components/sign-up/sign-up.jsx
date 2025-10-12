@@ -82,7 +82,7 @@ export const SignUp = ({ extraClass = "" }) => {
       <p
         className={`text text_type_medium-20 text_color_input mb-10 ${styles.subtitle}`}
       >
-        Зарегистрируйтесь для доступа к Kittygram!
+        Зарегистрируйтесь для доступа к сервису!
       </p>
       <FormContainer>
         <form className={styles.form}>
@@ -113,8 +113,7 @@ export const SignUp = ({ extraClass = "" }) => {
           <p
             className={`text text_type_small text_color_input ${styles.agreement}`}
           >
-            Регистрируясь на нашем сайте, вы обещаете постить в сервис только
-            котов, никаких собак.
+            Регистрируясь на нашем сайте, вы обещаете постить в сервис только самых классных питомцев!
           </p>
           <ButtonForm text="Зарегистрироваться" onClick={handleSubmit} />
           <p className="text text_type_small text_color_input mt-5 mb-5">или</p>
