@@ -1,6 +1,6 @@
-[![Main Kittygram workflow](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml)
 <a name="Start-point"></a>
-# KittyGram<img align="right" width="48" height="48" alt="KittyGram__icon" src="https://github.com/user-attachments/assets/abe9f7da-efa9-41ac-94cf-2bd6e73316f1" />
+[![Main Kittygram workflow](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/FuntikPiggy/kittygram_final/actions/workflows/main.yml)
+# Кот-в-сети<img align="right" width="48" height="48" alt="KittyGram__icon" src="https://github.com/user-attachments/assets/abe9f7da-efa9-41ac-94cf-2bd6e73316f1" />
 
 
 * [О проекте.](#anchor-about)<br/>
