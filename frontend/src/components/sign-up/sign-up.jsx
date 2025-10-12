@@ -3,7 +3,8 @@ import { useHistory, NavLink } from "react-router-dom";
 
 import { registerUser } from "../../utils/api";
 
-import logoIcon from "../../images/logo.svg";
+// import logoIcon from "../../images/logo.svg";
+import logoIcon from "../../images/Cat_online_logo__03.png";
 
 import { FormContainer } from "../ui/form-container/form-container";
 import { Input } from "../ui/input/input";
