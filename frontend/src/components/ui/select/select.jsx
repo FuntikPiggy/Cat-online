@@ -135,7 +135,7 @@ export const Select = ({
       >
         <p
           className={`text text_type_medium-16 text_color_${
-            text === "Достижения" ? "secondary" : "primary"
+            text === "Подвиги" ? "secondary" : "primary"
           } ${styles.text}`}
         >
           {text}
@@ -153,7 +153,7 @@ export const Select = ({
               onChange={handleSearch}
             />
             <button className={styles.add_btn} onClick={onPopupOpen}>
-              <img src={addIcon} alt="Кнопка добавления достижения." />
+              <img src={addIcon} alt="Кнопка добавления подвига" />
             </button>
           </div>
           <div className={styles.achievements_list}>

@@ -15,7 +15,7 @@ export const Popup = ({ onClose, onChange, onSubmit, extraClass = "" }) => {
         <h3
           className={`text text_type_h3 text_color_primary mb-10 ${styles.title}`}
         >
-          Новое достижение
+          Новый подвиг
         </h3>
         <Input type="text" onChange={onChange} />
         <ButtonForm

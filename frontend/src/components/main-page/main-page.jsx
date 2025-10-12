@@ -45,7 +45,7 @@ export const MainPage = ({ queryPage, setQueryPage, extraClass = "" }) => {
       <h2
         className={`text text_type_h2 text_color_primary mt-25 mb-20 ${styles.title}`}
       >
-        Замечательные коты
+        Коты он-лайн
       </h2>
       <div className={styles.box}>
         {cards.map((item, index) => {

@@ -7,7 +7,8 @@ import { logoutUser } from "../../utils/api";
 import loginIcon from "../../images/login.svg";
 import plusIcon from "../../images/plus.svg";
 import logoutIcon from "../../images/logout.svg";
-import logo from "../../images/logo.svg";
+// import logo from "../../images/logo.svg";
+import logo from "../../images/Cat_online_logo__03.png";
 
 import { ButtonHeader } from "../ui/button-header/button-header";
 import { ButtonSecondary } from "../ui/button-secondary/button-secondary";
@@ -46,7 +47,7 @@ export const Header = ({ setQueryPage, extraClass = "" }) => {
         <div className={styles.btns_box}>
           <ButtonHeader
             to="/cats/add"
-            text="Добавить кота"
+            text="Подключить кота"
             icon={plusIcon}
             isLogin={true}
           />
