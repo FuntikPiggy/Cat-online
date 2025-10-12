@@ -20,7 +20,7 @@ export const Select = ({
 }) => {
   const [isOpenAchivements, setIsOpenAchivements] = React.useState(false);
   const [currentAchievements, setCurrentAchievements] = React.useState({});
-  const [text, setText] = React.useState(userAchievements || "Достижения");
+  const [text, setText] = React.useState(userAchievements || "Подвиги");
   const [achievementsArr, setAchievementsArr] = React.useState([]);
   const [achievementsArrToSearch, setAchievementsArrToSearch] = React.useState(
     []
@@ -72,7 +72,7 @@ export const Select = ({
     if (result.length) {
       setText(result.join(", "));
     } else {
-      setText("Достижения");
+      setText("Подвиги");
     }
   };
 
